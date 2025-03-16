@@ -12,9 +12,10 @@ public class Main {
         //creating an object of the relevent classes
         Main myobj = new Main();
         Scanner user_val = new Scanner(System.in);
+        boolean running = true;
 
         // Taking user input
-        while (true) {
+        while (running) {
             try {
                 System.out.print("\n======================================================================================\n\n");
                 System.out.print("Enter Your Temperature : ");
@@ -40,7 +41,7 @@ public class Main {
                 System.out.print("\n=====================================================================================\n\n");
 
                 // Checking if user choice is within range
-                if (test_user_scale > 0 && test_user_scale < 3) {
+                if (test_user_scale > 0 && test_user_scale < 4) {
                     user_scale = test_user_scale;
                 }
 
@@ -64,7 +65,9 @@ public class Main {
                     break;
 
                 case 3:
-                    
+                    System.out.println("Exiting.....Goodbye.");
+                    System.out.print("\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n");
+                    running = false;
                     break;
             }
 

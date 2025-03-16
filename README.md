@@ -69,5 +69,5 @@ Enter Your choice:  1
 This project is open-source.
 
 ## Author
-- [Jamespeter Murithi]
+- Jamespeter Murithi
 

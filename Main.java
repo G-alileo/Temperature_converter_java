@@ -66,8 +66,9 @@ public class Main {
 
                 case 3:
                     System.out.println("Exiting.....Goodbye.");
-                    System.out.print("\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n");
                     running = false;
+                    user_val.close();
+                    System.out.print("\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n");
                     break;
             }
 
